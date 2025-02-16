@@ -1,0 +1,15 @@
+{
+    "name": "hamzasaidi/internet-banking-php",
+    "autoload": {
+        "psr-4": {
+            "Hamzasaidi\\InternetBankingPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "benamor.hamza",
+            "email": "saidi.benamor.hamza@gmail.com"
+        }
+    ],
+    "require": {}
+}
