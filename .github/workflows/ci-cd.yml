@@ -23,8 +23,11 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
 
-      - name: Give execute permissions to phpunit
-        run: chmod +x vendor/bin/phpunit
+      - name: List files in vendor/bin
+        run: ls -l vendor/bin
+
+      - name: Give execute permissions to phpunit with sudo
+        run: sudo chmod +x vendor/bin/phpunit
 
       - name: Run tests
         run: vendor/bin/phpunit
