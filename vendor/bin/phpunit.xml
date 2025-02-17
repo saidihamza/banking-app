@@ -1,7 +1,8 @@
-<phpunit>
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php">
     <testsuites>
-        <testsuite name="My Test Suite">
-            <directory>tests/</directory> <!-- Dossier contenant vos tests -->
+        <testsuite name="Application Test Suite">
+            <directory suffix="Test.php">tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
